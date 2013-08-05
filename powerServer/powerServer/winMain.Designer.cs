@@ -28,12 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+			this.StartSrv = new System.Windows.Forms.Button();
+			this.TxtClient = new System.Windows.Forms.TextBox();
+			this.TxtServer = new System.Windows.Forms.TextBox();
+			this.SuspendLayout();
+			// 
+			// StartSrv
+			// 
+			this.StartSrv.Location = new System.Drawing.Point(121, 220);
+			this.StartSrv.Name = "StartSrv";
+			this.StartSrv.Size = new System.Drawing.Size(123, 47);
+			this.StartSrv.TabIndex = 0;
+			this.StartSrv.Text = "Start Serving";
+			this.StartSrv.UseVisualStyleBackColor = true;
+			this.StartSrv.Click += new System.EventHandler(this.StartSrv_Click);
+			// 
+			// TxtClient
+			// 
+			this.TxtClient.Location = new System.Drawing.Point(12, 12);
+			this.TxtClient.Multiline = true;
+			this.TxtClient.Name = "TxtClient";
+			this.TxtClient.Size = new System.Drawing.Size(162, 186);
+			this.TxtClient.TabIndex = 1;
+			this.TxtClient.TextChanged += new System.EventHandler(this.TxtClient_TextChanged);
+			// 
+			// TxtServer
+			// 
+			this.TxtServer.Location = new System.Drawing.Point(192, 12);
+			this.TxtServer.Multiline = true;
+			this.TxtServer.Name = "TxtServer";
+			this.TxtServer.Size = new System.Drawing.Size(170, 186);
+			this.TxtServer.TabIndex = 2;
+			// 
+			// winMain
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(374, 279);
+			this.Controls.Add(this.TxtServer);
+			this.Controls.Add(this.TxtClient);
+			this.Controls.Add(this.StartSrv);
+			this.Name = "winMain";
+			this.Text = "TestNet";
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
         }
 
         #endregion
+
+		private System.Windows.Forms.Button StartSrv;
+		private System.Windows.Forms.TextBox TxtClient;
+		private System.Windows.Forms.TextBox TxtServer;
     }
 }
 

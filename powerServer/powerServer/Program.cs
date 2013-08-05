@@ -15,7 +15,6 @@ namespace powerServer
         [STAThread]
         static void Main()
         {
-			CoreTcpHost x = new CoreTcpHost(80);
 			Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new winMain());
