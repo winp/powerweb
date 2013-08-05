@@ -16,7 +16,7 @@
     <Node Id="City" Bounds="180.421767253333,2509.96,81.6734058666667,25.96" Label="City (Y) [int]" />
     <Node Id="Comments(Cm)" Bounds="1262.85086704,2719.96,112.416666666667,25.96" Label="Subposts (O) [int]" />
     <Node Id="Country(Cn)" Bounds="169.05086288,2453.96,104.415214613333,25.96" Label="Country (C) [int]" />
-    <Node Id="Country(Cn)1" Bounds="384.324200373334,2330.96,70.3433333333335,25.96" Label="Place (Pc)" />
+    <Node Id="Country(Cn)1" Category="Category3" Bounds="384.324200373334,2330.96,70.3433333333335,25.96" Label="Place (Pc)" />
     <Node Id="Country(Cn)2" Bounds="364.324200373334,2122,307.183333333333,422.92" Group="Expanded" Label="Place (Pc)" />
     <Node Id="CountryAdder(U1)" Bounds="515.064200373334,2386.96,106.046666666667,25.96" Label="Updater (U) [int]" />
     <Node Id="CountryFlag(Cf)" Bounds="517.739200373334,2330.96,100.696666666667,25.96" Label="Symbol (S) [int]" />
@@ -160,8 +160,8 @@
     <Link Source="Address(Ad)1" Target="Pin(Pn)" Bounds="72.9541091918945,2204.13427734375,115.848747253418,137.82568359375" />
     <Link Source="Address(Ad)1" Target="State(St)" Bounds="68.8177871704102,2147.42993164063,113.506568908691,194.530029296875" />
     <Link Source="Address(Pd)[int]" Target="Address(Ad)1" Bounds="116.678233962313,2365.50785203557,398.923972573292,79.9176085533409" />
-    <Link Source="City" Target="Country(Cn)1" Bounds="209.583852214088,1445.14730072962,178.980403151753,350.741024839695" />
-    <Link Source="Country(Cn)" Target="Country(Cn)1" Bounds="210.712240796343,1444.85760964912,176.199733284708,295.030715920191" />
+    <Link Source="City" Target="Country(Cn)1" Bounds="235.63345013726,2362.95159027584,162.807622677458,147.008409724155" />
+    <Link Source="Country(Cn)" Target="Country(Cn)1" Bounds="242.17815645623,2361.66504309523,148.75050406092,92.2949569047742" />
     <Link Source="Country(Cn)1" Target="AddTime(Tm)3" Bounds="427.914581298828,2356.919921875,108.834381103516,137.681884765625" />
     <Link Source="Country(Cn)1" Target="Address(Pd)[int]" Bounds="436.716583251953,2356.919921875,106.963165283203,80.622802734375" />
     <Link Source="Country(Cn)1" Target="CountryAdder(U1)" Bounds="453.046508789063,2356.58422851563,72.1778564453125,27.201904296875" />
@@ -337,7 +337,7 @@
     <Link Source="Post(Ot)" Target="Views(Vw)[int]" Category="Contains" />
     <Link Source="ProfilePicture(Pc)" Target="File(Fl)" Bounds="862.530140280763,884.460010986328,904.24906814572,519.55625877156" />
     <Link Source="ProfilePictureSmall(Ps)" Target="File(Fl)" Bounds="860.558292796754,828.45998046875,908.315421068829,575.224799546801" />
-    <Link Source="State(St)" Target="Country(Cn)1" Bounds="247.000259681759,1418.51091037568,108.112881241469,4.00409516402988" />
+    <Link Source="State(St)" Target="Country(Cn)1" Bounds="233.338852398668,2143.92,167.945074415376,180.451829060999" />
     <Link Source="TableAcronym(Ta)" Target="InformationName(Nm)[varchar(64)]" Bounds="1589.40417480469,832.27978515625,73.8323974609375,27.5353393554688" />
     <Link Source="TableAcronym(Ta)" Target="TableAcronymId(T1)[char[2]]" Bounds="1590.5517578125,819.940002441406,70.961669921875,0" />
     <Link Source="TableAcronym(Ta)1" Target="InformationName(Nm)[varchar(64)]" Category="Contains" />
